@@ -1,0 +1,12 @@
+output   = "models"
+wipe     = true
+no-tests = true
+
+[psql]
+  dbname = "Hospital"
+  host   = "54.254.1.197"
+  port   = 5432
+  user   = "postgres"
+  pass   = "leeladealwis@1111"
+  blacklist = ["migrations", "other"]
+  whitelist = []
