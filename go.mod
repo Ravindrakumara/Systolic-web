@@ -17,6 +17,11 @@ require (
 	github.com/volatiletech/null/v8 v8.1.2
 	github.com/volatiletech/sqlboiler/v4 v4.6.0
 	github.com/volatiletech/strmangle v0.0.1
-	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97 // indirect
+	
+	github.com/joho/godotenv v1.3.0
+	github.com/labstack/echo v3.3.10+incompatible
+	github.com/labstack/gommon v0.3.0 // indirect
+	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
+
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
-)
+	
